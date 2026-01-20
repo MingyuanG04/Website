@@ -132,3 +132,16 @@ h1 {
 .grid-container img:hover {
     transform: scale(1.05);
 }
+
+.image-wrapper {
+    max-width: 400px;
+    margin: 1.5em 0;
+    overflow: hidden;
+    border-radius: 0.5em;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
